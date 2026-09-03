@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tv-blue: #2962FF;
+  --color-tv-blue-hover: #1e53e5;
+  --color-tv-green: #089981;
+  --color-tv-green-light: #E8F5E9;
+  --color-tv-red: #F23645;
+  --color-tv-red-light: #FFEBEE;
+  --color-tv-gray: #F0F3FA;
+  --color-tv-border-subtle: #E0E3EB;
+  --color-tv-text: #131722;
+  --color-tv-text-muted: #787B86;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
